@@ -1,1 +1,3 @@
-# Personal_showcase_final
+to run 
+npm install
+npm start

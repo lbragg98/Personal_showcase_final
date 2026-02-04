@@ -1,0 +1,5 @@
+.text {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--muted);
+}

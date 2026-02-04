@@ -1,0 +1,24 @@
+:root {
+  --bg: #050505;
+  --panel: #0b0b0b;
+  --border: #1f1f1f;
+
+  --neon: #39ff14;
+  --neon-soft: rgba(57, 255, 20, 0.35);
+
+  --text: #eaeaea;
+  --muted: #bdbdbd;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0c0c0c 0%, var(--bg) 55%);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+a { color: var(--neon); }
